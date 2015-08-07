@@ -3,7 +3,7 @@
  # Created on:  14 December 2010
  # File(s):     xor.c
  # Version:	    0.1 beta
- # Author:		JD Durick <vm0x0d@gmail.com>
+ # Author:		JD Durick <labgeek@gmail.com>
  # Description: Simple program using XOR to encrypt files with a rolling key.
  ##########################################################################################
  */
