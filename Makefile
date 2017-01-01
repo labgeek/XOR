@@ -1,6 +1,6 @@
 all:  xor
 
-bytelocator: Makefile xor.c
+xor:    Makefile xor.c
 	gcc -g -Wall -o xor xor.c
 
 clean:
