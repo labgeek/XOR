@@ -100,7 +100,7 @@ void xor(char *input_file, char *output_file, char *key) {
 
 void usage(char *prog_name) {
 	fprintf(stderr, "\nProgram: xor v0.1 beta\n");
-	fprintf(stderr, "Author:  JD Durick <vm0x0d@gmail.com>\n");
+	fprintf(stderr, "Author:  JD Durick <labgeek@gmail.com>\n");
 	fprintf(
 			stderr,
 			"Description:  xor.c is a small program to encrypt/decrypt files via a rolling key\n");
