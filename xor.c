@@ -72,10 +72,14 @@ int main(int argc, char ** argv) {
 /* Function name:  xor
  * Input:  input file, output file, and the key used to encrypt
  * or decrypt the file in question
+ * Thanks for TheKevinWang making the correction in the output file
+ * Change made on 1/10/2024
  */
+
 void xor(char *input_file, char *output_file, char *key) {
 	FILE* input = fopen(input_file, "rb");
-	FILE* output = fopen(output_file, "w");
+	/* carriage return bytes get injected into the output with only const char *mode in 'w' */
+	FILE* output = fopen(output_file, "wb");
 	int keycount = 0;
 	int encryptbyte;
 
