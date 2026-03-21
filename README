@@ -7,3 +7,9 @@ To Install:
 
 Tested on an ubuntu 9.04 system
 Kernel: 2.6.28-19-generic #66-Ubuntu SMP Sat Oct 16 17:39:04 UTC 2010 i686 GNU/Linux
+
+21 March 2026
+rewrite of .c to .py
+xor.py
+
+
